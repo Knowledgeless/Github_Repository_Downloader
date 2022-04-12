@@ -86,3 +86,4 @@ except KeyboardInterrupt:
     print("\n\n\t\tExiting Code...Bye...Bye...!\n")
 except Exception as e:
     print("\tYou are facing '{}'", e)
+    print('\n\n\tPlease ping me at "https://github.com/Knowledgeless/" to solve the issue.')
