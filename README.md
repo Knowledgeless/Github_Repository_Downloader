@@ -2,14 +2,14 @@
 <br><br>
 <p>This script is only for those people who want to watch all the repository using terminal or by running the code. Hopefully, It will help a bit.</p>
 <br>
-<i><h3><li> REQUIREMENTS</li><h3></i>
+<i><h3><li> REQUIREMENTS</li></h3></i>
 <p>Some modules you have to install first. It will ask while you are going to running the code though. Let's see what are the requirements. <br>
 - <i>bs4</i> <br>
 - <i>requests</i><br>
 Yes, very simple modules are going to be used. 
 </p>
 <br>
-<i><h3><li> HOW TO RUN THIS SCRIPT?</li><h3></i>
+<i><h3><li> HOW TO RUN THIS SCRIPT?</li></h3></i>
 <p>
 <h4>For <i>'Linux'</i> User</h4>
 To use this script just run this command in your terminal.<br>
