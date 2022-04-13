@@ -2,14 +2,14 @@
 <br><br>
 <p>This script is only for those people who want to watch all the repository using terminal or by running the code. Hopefully, It will help a bit.</p>
 <br>
-<li>Requirements</li>
+<i><h3><li> REQUIREMENTS</li><h3></i>
 <p>Some modules you have to install first. It will ask while you are going to running the code though. Let's see what are the requirements. <br>
 - <i>bs4</i> <br>
 - <i>requests</i><br>
 Yes, very simple modules are going to be used. 
 </p>
 <br>
-<li><i><h3>How to run the script?<h3></i></li>
+<i><h3><li> HOW TO RUN THIS SCRIPT?</li><h3></i>
 <p>
 <h4>For <i>'Linux'</i> User</h4>
 To use this script just run this command in your terminal.<br>
@@ -31,7 +31,7 @@ While download process is finished go to that file using command prompt and run,
 - <i>python repo_downloader.py</i><br>
 BANG...! The script will be running by itself and ask you for the module if it found not installed. Then run the same command again. <br></p>
 
-<h4>### You can use this script using <i>'termux'</i> in your mobile phone.<br><br>
+<h4>[+] You can use this script using <i>'termux'</i> in your mobile phone.<br><br>
 
 <h3>HappyCoding...!
 
