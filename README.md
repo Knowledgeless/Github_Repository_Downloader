@@ -17,11 +17,11 @@ To use this script just run this command in your terminal.<br>
 After cloning the repository, go to the file and run the python code using this command,<br>
 - <i>python3 repo_downloader.py</i><br>
 BANG...! The script will be running by itself and ask you for the module if it found not installed. Then run the same command again. It will ask to enter the username. Enter the username only. <br>
-<i>For example:</i><br>
-Enter your username: Knowledgeless <br>And it will work by itself and may ask you some confirmation. 
+<i>For example:</i><br><br>
+<h5>Enter your username: Knowledgeless</h5> <br>And it will work by itself and may ask you some confirmation. 
 </p>
-
-<h4>For <i>'Windows'</i> User</h4><br>
+<br>
+<h4>For <i>'Windows'</i> User</h4>
 Make sure you have git installed already. Otherwise install in manually. You may watch youtube to solve the git issue as well. If the git is okay then follow the instructions.<br>
 - Go to start menu<br>
 - Type "cmd" on search menu and hit Enter key.<br>
@@ -32,8 +32,8 @@ Go to your any drive partition. <b>Recomended: Don't use 'C' drive.</b> <br>
 While download process is finished go to that file using command prompt and run,<br>
 - <i>python repo_downloader.py</i><br>
 BANG...! The script will be running by itself and ask you for the module if it found not installed. Then run the same command again. It will ask to enter the username. Enter the username only. <br>
-<i>For example:</i><br>
-Enter your username: Knowledgeless <br>And it will work by itself and may ask you some confirmation.</p 
+<i>For example:</i><br><br>
+<h5>Enter your username: Knowledgeless</h5> <br>And it will work by itself and may ask you some confirmation.</p 
 
 <h4>[+] You can use this script using <i>'termux'</i> in your mobile phone.<br><br>
 
