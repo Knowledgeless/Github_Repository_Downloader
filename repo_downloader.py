@@ -1,6 +1,9 @@
 #!/usr/bin/python -O
 
 
+
+
+
 try:
     import requests as rq
     import bs4 as bs
@@ -35,8 +38,9 @@ try:
             self.user = username
             
         def scraper(self):
-            
+            links = []
             link = "https://github.com/"+self.user+"?tab=repositories"
+            
             if rq.get(link).status_code == 404:
                 print("\n\n\t\tOppss, Invalid Username. Try Again..!\n\n")
 
@@ -44,7 +48,7 @@ try:
                 response = rq.get(link).text
                 search = bs.BeautifulSoup(response, 'html.parser')
                 source = search.find_all('a')
-                links = []
+                
 
                 for i in source:
                     link =  i.get('href')
@@ -59,17 +63,17 @@ try:
 
         def names(self):
             self.scr = CodeScraper.scraper(self)
-            choice = input("Total {} repository found. Do you want tho download them? (Y/n): ".format(len(self.scr)))
-            if choice.lower() == "y":
-                
-                os.system("mkdir {}".format(self.user))
-                os.chdir("{}".format(self.user))
+            if len(self.scr) !=0 :
+                choice = input("Total {} repository found. Do you want tho download them? (Y/n): ".format(len(self.scr)))
+                if choice.lower() == "y":
+                    os.system("mkdir {}".format(self.user))
+                    os.chdir("{}".format(self.user))
 
-                for i in self.scr:
-                    d_link = "https://github.com"+i+".git"
-                    print(Colors.warning + "\nDownloading Repository: {}".format(d_link))
-                    os.system("git clone {}".format(d_link))
-                    print(Colors.green + "Download Completed..!".format(i))
+                    for i in self.scr:
+                        d_link = "https://github.com"+i+".git"
+                        print(Colors.warning + "\nDownloading Repository: {}".format(d_link))
+                        os.system("git clone {}".format(d_link))
+                        print(Colors.green + "Download Completed..!".format(i))
             else:
                 pass
 
