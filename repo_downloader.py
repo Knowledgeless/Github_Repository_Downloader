@@ -1,9 +1,5 @@
 #!/usr/bin/python -O
 
-
-
-
-
 try:
     import requests as rq
     import bs4 as bs
