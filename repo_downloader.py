@@ -95,14 +95,16 @@ except ModuleNotFoundError:
     \t\tYou have to install these MODULE's
     \t1. bs4
     \t2. requests
+    \t3. pip3
     """)
     confirmation = input("\t\tDo you want to install?(Y/n): ")
     if confirmation.lower() == "y":
+        os.system("python install pip3")
+        print("pip3 Installing...")
         print("bs4 Module Installing...")
         os.system("pip3 install bs4")
         print("Requests Module Installing...")
-        os.system("pip3 install requests")
-        print("tqdm Module Installing...")
+        
 
     else:
         print(Colors.warning+"\n\t\tExiting Code...Bye...Bye...!\n")
